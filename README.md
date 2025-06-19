@@ -25,6 +25,7 @@ It works seamlessly on **Termux** and **Kali Linux**.
 pkg update && pkg upgrade
 pkg install python tor clang git -y
 pip install requests stem
+pip install requests[socks]
 git clone https://github.com/SenihX/GhostHammer
 cd GhostHammer
 python ghosthammer.py
